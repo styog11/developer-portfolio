@@ -1,23 +1,33 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Marble Hills Middle School',
-        course: 'Higher Secondary Education',
-        startYear: '2007',
-        endYear: '2015'
+        institution: 'Ista al adarissa',
+        course: 'Technicien spécialisé en développement digital',
+        startYear: '',
+        endYear: '2024'
     },
     {
         id: 2,
-        institution: 'Somerset School of Science',
-        course: 'Bachelor of Technology',
-        startYear: '2015',
-        endYear: '2019'
+        institution: 'FSJES FES',
+        course: 'LICENCE FONDAMENTALE SCIENCE ECONOMIE ET GESTION',
+        startYear: '',
+        endYear: '2021'
     },
     {
         id: 3,
-        institution: 'Hawking University, Cambridge',
-        course: 'Master of Technology',
-        startYear: '2019',
-        endYear: 'Present'
+        institution: 'FSJES FES',
+        course: 'DEUG SCIENCE ECONOMIE ET GESTION',
+        startYear: '',
+        endYear: '2020'
     },
+    {
+        id: 4,
+        institution: 'Lycée allal elfassi',
+        course: 'Bac physique',
+        startYear: '',
+        endYear: '2016'
+    },
+
+
+,
 ]
