@@ -27,7 +27,4 @@ export const educationData = [
         startYear: '',
         endYear: '2016'
     },
-
-
-,
 ]
