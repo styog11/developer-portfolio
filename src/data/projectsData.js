@@ -6,80 +6,107 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
-
+import zelija from '../assets/svg/projects/zelija.jpg'
+import nodt7fed from '../assets/svg/projects/nodt7fed.jpg'
+import fpl from '../assets/svg/projects/fpl.jpg'
+import todays from '../assets/svg/projects/todays.jpeg'
+import anibirthday from '../assets/svg/projects/anibirthday.png'
+import lenslyric from '../assets/svg/projects/lenslyrics.png'
+import  rockpaperscissor from '../assets/svg/projects/rock.png'
+import clima from '../assets/svg/projects/clima.png'
+import bmi from '../assets/svg/projects/bmi.png'
+import byteCoin from '../assets/svg/projects/coin.png'
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: '',
-        demo: '',
-        image: one
+        projectName: 'Zelija App',
+        projectDesc: 'the Zelija app, inspired by the Moroccan concept of saving money.',
+        tags: ['Flutter', 'Dart', 'Material Ui'],
+        code: 'https://www.linkedin.com/feed/update/urn:li:activity:7245158516519321600/',
+        demo: 'https://www.linkedin.com/feed/update/urn:li:activity:7245158516519321600/',
+        image: zelija
     },
     {
         id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
+        projectName: 'FPL Bonus System',
+        projectDesc: 'FPL Bonus System.',
+        tags: ['Flutter', 'Dart','Php'],
         code: '',
         demo: '',
-        image: two
+        image: fpl
     },
     {
         id: 3,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
+        projectName: 'Nod T7fed',
+        projectDesc: 'App for children in primary contains videos of used books in moroccan primary school.',
+        tags: ['Flutter', 'Dart','Php'],
         code: '',
         demo: '',
-        image: three
+        image: nodt7fed
     },
     {
         id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: '',
-        demo: '',
-        image: four
+        projectName: 'Todays matches',
+        projectDesc: 'Discover all football leagues and the list of today\'s match and take a professional screenshoot.',
+        tags: ['Android', 'Kotlin','Jetpack compose'],
+        code: 'https://www.linkedin.com/feed/update/urn:li:activity:7172998037122859009',
+        demo: 'https://www.linkedin.com/feed/update/urn:li:activity:7172998037122859009',
+        image: todays
     },
     {
         id: 5,
-        projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
-        code: '',
-        demo: '',
-        image: five
+        projectName: 'Anibirthday',
+        projectDesc: 'Here where you can find your favorites anime characters Birthday',
+        tags: ['Android', 'Kotlin',"Xml"],
+        code: 'https://www.linkedin.com/feed/update/urn:li:activity:7168960109526642688',
+        demo: 'https://www.linkedin.com/feed/update/urn:li:activity:7168960109526642688',
+        image: anibirthday
     },
     {
         id: 6,
-        projectName: 'Uber Lite',
-        projectDesc: 'Uber clone',
-        tags: ['Flutter'],
-        code: '',
-        demo: '',
-        image: six
+        projectName: 'lenslyric',
+        projectDesc: 'App to generate text from picture using AI',
+        tags: ['Android','Kotlin','Python','Flask'],
+        code: 'https://www.linkedin.com/feed/update/urn:li:activity:7177730094738624512',
+        demo: 'https://www.linkedin.com/feed/update/urn:li:activity:7177730094738624512',
+        image: lenslyric
     },
     {
         id: 7,
-        projectName: 'Stock Market App',
-        projectDesc: 'A simple stock market API app',
-        tags: ['React', 'Redux', 'Bootstrap'],
-        code: '',
-        demo: '',
-        image: seven
+        projectName: 'Rock paper scissor',
+        projectDesc: 'A simple game for Rock paper scissor offline',
+        tags: ['Android', 'Kotlin', 'Xml'],
+        code: 'https://www.linkedin.com/feed/update/urn:li:activity:7166809321400451072',
+        demo: 'https://www.linkedin.com/feed/update/urn:li:activity:7166809321400451072',
+        image: rockpaperscissor
     },
     {
         id: 8,
-        projectName: 'Car Pooling System',
-        projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
-        tags: ['Flutter', 'React'],
-        code: '',
-        demo: '',
-        image: eight
+        projectName: 'clima',
+        projectDesc: 'Simple IOS Weather app',
+        tags: ['IOS', 'Swift' , 'UIKit'],
+        code: 'https://www.linkedin.com/feed/update/urn:li:activity:7219420708412555264',
+        demo: 'https://www.linkedin.com/feed/update/urn:li:activity:7219420708412555264',
+        image: clima
+    },
+    {
+        id: 9,
+        projectName: 'Bmi calculator',
+        projectDesc: 'Simple IOS Body Mass Indicator Calculator app',
+        tags: ['IOS', 'Swift' , 'UIKit'],
+        code: 'https://www.linkedin.com/feed/update/urn:li:activity:7218217150585417728',
+        demo: 'https://www.linkedin.com/feed/update/urn:li:activity:7218217150585417728',
+        image: bmi
+    },
+    {
+        id: 10,
+        projectName: 'byteCoin',
+        projectDesc: 'Simple IOS Crypto Currency live prices app',
+        tags: ['IOS', 'Swift' , 'UIKit'],
+        code: 'https://www.linkedin.com/feed/update/urn:li:activity:7219727931449688065',
+        demo: 'https://www.linkedin.com/feed/update/urn:li:activity:7219727931449688065',
+        image: byteCoin
     },
 ]
 
